@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://uvp777hudoh3"]
+
+[ext_resource type="Script" uid="uid://dxe7nvsr15wyt" path="res://scripts/Card.cs" id="1_6u4wf"]
+
+[node name="Card" type="Control" unique_id=1360568755]
+custom_minimum_size = Vector2(120, 180)
+layout_mode = 3
+anchors_preset = 0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_6u4wf")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=964819641]
+modulate = Color(0, 0.1625394, 0.19054818, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6

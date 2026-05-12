@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://ceh60pn0agq3y"]
+
+[ext_resource type="Texture2D" uid="uid://dmtaxvthac34f" path="res://assets/rigby_cat.jpg" id="1_wi16l"]
+[ext_resource type="Script" uid="uid://fpmr5anu6ai5" path="res://scripts/CardData.cs" id="2_lu4sp"]
+
+[resource]
+script = ExtResource("2_lu4sp")
+CardName = "The Moon"
+CardArt = ExtResource("1_wi16l")
+metadata/_custom_type_script = "uid://fpmr5anu6ai5"

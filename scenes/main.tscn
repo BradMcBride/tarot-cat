@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://d3mfl51jjhgt5"]
+
+[ext_resource type="PackedScene" uid="uid://uvp777hudoh3" path="res://scenes/card.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://bns0nyfjvs48d" path="res://scenes/hand.tscn" id="1_sugp2"]
+[ext_resource type="Resource" uid="uid://ceh60pn0agq3y" path="res://resources/the_moon.tres" id="2_0wfyh"]
+
+[node name="Main" type="Node2D" unique_id=462908912]
+
+[node name="Card" parent="." unique_id=1360568755 instance=ExtResource("1_o5qli")]
+texture_filter = 2
+offset_right = 120.0
+offset_bottom = 180.0
+Data = ExtResource("2_0wfyh")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=794802428]
+
+[node name="Hand" parent="CanvasLayer" unique_id=1094102567 instance=ExtResource("1_sugp2")]
+offset_left = -576.0
+offset_top = -648.0
+offset_right = -576.0
+offset_bottom = -648.0
+CardScene = ExtResource("1_o5qli")
