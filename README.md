@@ -1,3 +1,3 @@
 # Welcome to Tarot Cats
 
-Hello World! 
+Hello World! :) 
