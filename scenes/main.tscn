@@ -14,9 +14,5 @@ Data = ExtResource("2_0wfyh")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=794802428]
 
-[node name="Hand" parent="CanvasLayer" unique_id=1094102567 instance=ExtResource("1_sugp2")]
-offset_left = -576.0
-offset_top = -648.0
-offset_right = -576.0
-offset_bottom = -648.0
+[node name="Hand" parent="." unique_id=1094102567 instance=ExtResource("1_sugp2")]
 CardScene = ExtResource("1_o5qli")
